@@ -114,7 +114,7 @@ def determine_image_crop_by_text_coverage(img, rects, desired_percentage,
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert a three.js json file to .stl.')
+        description='Crop a meme, badly.')
     parser.add_argument('in_folderpath',
                         type=arghelper.extant_dir,
                         help='the input directory from whence the files come.')
